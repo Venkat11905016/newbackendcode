@@ -27,11 +27,11 @@ app.post("/send-notification", async (req, res) => {
       notification: {
         title,
         body,
-        icon: "https://nodefssai-2.onrender.com/logo192.png", // ✅ Must be full URL
-        click_action: "https://nodefssai-2.onrender.com", // ✅ Must be full URL
+        icon: "https://newbackendcode.onrender.com/logo192.png", // ✅ Must be full URL
+        click_action: "https://newbackendcode.onrender.com", // ✅ Must be full URL
       },
       fcmOptions: {
-        link: "https://nodefssai-2.onrender.com", // ✅ Android Chrome requires this for correct click behavior
+        link: "https://newbackendcode.onrender.com", // ✅ Android Chrome requires this for correct click behavior
       },
     },
   };

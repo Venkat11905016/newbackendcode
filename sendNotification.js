@@ -17,11 +17,11 @@ const sendPushNotification = async (token, title, body) => {
       notification: {
         title,
         body,
-        icon: "https://nodefssai-2.onrender.com/logo192.png", // ✅ FULL URL required
-        click_action: "https://nodefssai-2.onrender.com", // ✅ optional but good UX
+        icon: "https://newbackendcode.onrender.com/logo192.png", // ✅ FULL URL required
+        click_action: "https://newbackendcode.onrender.com", // ✅ optional but good UX
       },
       fcmOptions: {
-        link: "https://nodefssai-2.onrender.com", // ✅ required for Android to open app
+        link: "https://newbackendcode.onrender.com", // ✅ required for Android to open app
       },
     },
   };
